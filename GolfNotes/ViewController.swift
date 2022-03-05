@@ -9,7 +9,7 @@ import UIKit
 import FirebaseFirestore
 import FirebaseAuth
 
-class ViewController: UITabBarController {
+class ViewController: UIViewController {
     
     let database = Firestore.firestore()
     
